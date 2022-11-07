@@ -74,6 +74,8 @@ while True:
                 color=(255,255,255)
             elif event.key==ord('='):
                 color=(0,0,0)
+            elif event.key==ord(';'):
+                color=(127,127,127)
             elif event.key==ord('9'):
                 pygame.image.save(screen,'drawerfile/save.png')
             elif event.key==ord('0'):
@@ -113,3 +115,4 @@ while True:
                             RT_drawb( screen,bTree,treeClrList,1+a*20,1+b*20,8,2.5)'''
     pygame.display.update()
     clock.tick(100)
+
